@@ -2114,14 +2114,16 @@ export default function App() {
                     </div>
 
                     {/* Exact Active Image Source Path Indicator */}
-                    <div className="w-full max-w-[340px] sm:max-w-[380px] bg-slate-100 dark:bg-hd-dark-sidebar border border-slate-200 dark:border-hd-dark-border rounded px-2.5 py-1.5 flex items-center justify-between text-[10px] font-mono select-all">
-                      <span className="text-slate-400 dark:text-slate-500 font-extrabold uppercase tracking-wider text-[8px]">
-                        {lang === "uk" ? "ШЛЯХ ДO ЗOБРAЖEННЯ" : "ACTIVE IMAGE PATH"}
-                      </span>
-                      <span className="text-red-500 font-extrabold break-all text-right" id="active_map_image_src">
-                        {decodeURIComponent(currentMapSpecs.imageUrl || "")}
-                      </span>
-                    </div>
+                    {adminPassVerified && (
+                      <div className="w-full max-w-[340px] sm:max-w-[380px] bg-slate-100 dark:bg-hd-dark-sidebar border border-slate-200 dark:border-hd-dark-border rounded px-2.5 py-1.5 flex items-center justify-between text-[10px] font-mono select-all">
+                        <span className="text-slate-400 dark:text-slate-500 font-extrabold uppercase tracking-wider text-[8px]">
+                          {lang === "uk" ? "ШЛЯХ ДO ЗOБРAЖEННЯ" : "ACTIVE IMAGE PATH"}
+                        </span>
+                        <span className="text-red-500 font-extrabold break-all text-right" id="active_map_image_src">
+                          {decodeURIComponent(currentMapSpecs.imageUrl || "")}
+                        </span>
+                      </div>
+                    )}
 
                     {/* Infinite Theater Cage holding the Map */}
                     <div 

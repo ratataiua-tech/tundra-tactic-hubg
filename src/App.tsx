@@ -36,7 +36,11 @@ import {
   List,
   Plus,
   Video,
-  ZoomIn
+  ZoomIn,
+  ShieldCheck,
+  Lock,
+  Unlock,
+  Key
 } from "lucide-react";
 import { 
   initialMaps, 
@@ -186,6 +190,7 @@ export default function App() {
   const [passInput, setPassInput] = useState("");
   const [passError, setPassError] = useState("");
   const [adminSubTab, setAdminSubTab] = useState<"import" | "vehicles" | "maps" | "videos">("import");
+  const [showAdminAuthModal, setShowAdminAuthModal] = useState<boolean>(false);
 
   const [currentTime, setCurrentTime] = useState<string>("");
 
@@ -1481,6 +1486,28 @@ export default function App() {
               </span>
             </button>
 
+            {/* Admin Verification Button (Small, styled compactly at the edge) */}
+            <button
+              onClick={() => {
+                if (adminPassVerified) {
+                  setActiveTab("stats");
+                } else {
+                  setShowAdminAuthModal(true);
+                }
+              }}
+              title={lang === "uk" ? "Підтвердити право адміністратора" : "Confirm Administrator Rights"}
+              className={`flex items-center bg-slate-100 dark:bg-hd-dark-bg border rounded px-2 py-1 select-none transition hover:opacity-90 cursor-pointer ${
+                adminPassVerified 
+                  ? "border-green-500/50 text-green-600 dark:text-green-400 bg-green-500/5 dark:bg-green-500/10" 
+                  : "border-slate-250 dark:border-hd-dark-border-light text-slate-500 dark:text-slate-400"
+              }`}
+            >
+              <div className={`w-2 h-2 rounded-full ${adminPassVerified ? "bg-green-500 animate-pulse" : "bg-slate-400 dark:bg-slate-600"}`} />
+              <span className="text-[10px] ml-2 font-mono uppercase font-bold">
+                {lang === "uk" ? "Адмін" : "Admin"}
+              </span>
+            </button>
+
           </div>
         </div>
 
@@ -1493,7 +1520,7 @@ export default function App() {
               { id: "ammo", label: t.navAmmo, icon: Target },
               { id: "setups", label: t.navSetups, icon: Award },
               { id: "news", label: t.navNews, icon: BookOpen },
-              { id: "stats", label: t.navStats, icon: Database }
+              ...(adminPassVerified ? [{ id: "stats", label: t.navStats, icon: Database }] : [])
             ].map(tab => {
               const TabIcon = tab.icon;
               const isActive = activeTab === tab.id;
@@ -3055,34 +3082,6 @@ export default function App() {
               </p>
             </div>
 
-            {/* OTP Key Generator Frame */}
-            <div className="p-4 bg-theme-surface border border-theme-border rounded-lg space-y-3 font-mono text-xs relative overflow-hidden">
-              <div className="flex justify-between items-center text-[10px] text-theme-secondary tracking-wider uppercase font-bold border-b border-theme-border pb-2">
-                <span>🕒 {lang === "uk" ? "СИСТЕМНІ ТОКЕНИ OTP" : "SYSTEM OTP TOKENS"}</span>
-                <span className="text-amber-500 animate-pulse flex items-center gap-1">● {currentTime}</span>
-              </div>
-              
-              <div className="space-y-2">
-                <div className="flex justify-between items-center">
-                  <span className="text-theme-secondary">{lang === "uk" ? "Код сьогоднішньої дати:" : "Daily Code (YYYYMMDD):"}</span>
-                  <span className="text-theme-primary font-black tracking-wider bg-theme-card border border-theme-border px-2.5 py-1 rounded">
-                    {getAdminOTPs()[0]}
-                  </span>
-                </div>
-                <div className="flex justify-between items-center border-t border-theme-border/50 pt-2">
-                  <span className="text-theme-secondary">{lang === "uk" ? "Динамічний токен часу:" : "Dynamic TOTP Token:"}</span>
-                  <span className="text-amber-500 font-extrabold tracking-wider bg-theme-card border border-theme-border px-2.5 py-1 rounded">
-                    {getAdminOTPs()[1]}
-                  </span>
-                </div>
-                <div className="text-[10px] text-theme-secondary/80 italic text-center pt-1 border-t border-theme-border/50">
-                  {lang === "uk" 
-                    ? "Майстер-код (статичний): 11092001" 
-                    : "Universal Bypass Key: 11092001"}
-                </div>
-              </div>
-            </div>
-
             {/* Lock Form */}
             <form 
               onSubmit={(e) => {
@@ -3265,6 +3264,37 @@ export default function App() {
                     <span>{t.resetBtn}</span>
                   </button>
                 </div>
+
+                {/* OTP Key Generator Frame (Only visible here for confirmed admins) */}
+                <div className="mt-6 pt-6 border-t border-theme-border/60">
+                  <div className="p-4 bg-theme-surface border border-theme-border rounded-lg space-y-3 font-mono text-xs relative overflow-hidden max-w-sm">
+                    <div className="flex justify-between items-center text-[10px] text-theme-secondary tracking-wider uppercase font-bold border-b border-theme-border pb-2">
+                      <span>🕒 {lang === "uk" ? "СИСТЕМНІ ТОКЕНИ OTP [АДМІНІСТРАТОР]" : "SYSTEM OTP TOKENS [ADMINISTRATOR]"}</span>
+                      <span className="text-amber-500 animate-pulse flex items-center gap-1">● {currentTime}</span>
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-theme-secondary">{lang === "uk" ? "Код сьогоднішньої дати:" : "Daily Code (YYYYMMDD):"}</span>
+                        <span className="text-theme-primary font-black tracking-wider bg-theme-card border border-theme-border px-2.5 py-1 rounded">
+                          {getAdminOTPs()[0]}
+                        </span>
+                      </div>
+                      <div className="flex justify-between items-center border-t border-theme-border/50 pt-2">
+                        <span className="text-theme-secondary">{lang === "uk" ? "Динамічний токен часу:" : "Dynamic TOTP Token:"}</span>
+                        <span className="text-amber-500 font-extrabold tracking-wider bg-theme-card border border-theme-border px-2.5 py-1 rounded">
+                          {getAdminOTPs()[1]}
+                        </span>
+                      </div>
+                      <div className="text-[10px] text-theme-secondary/80 italic text-center pt-1 border-t border-theme-border/50">
+                        {lang === "uk" 
+                          ? "Майстер-код (статичний): 11092001" 
+                          : "Universal Bypass Key: 11092001"}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             )}
 
@@ -3925,6 +3955,99 @@ export default function App() {
           isOpen={true}
           onClose={() => setZoomedAmmoImage(null)}
         />
+      )}
+
+      {showAdminAuthModal && (
+        <div className="fixed inset-0 bg-black/70 backdrop-blur-xs flex items-center justify-center p-4 z-50 animate-fade-in">
+          <div className="bg-theme-card border border-theme-border rounded-xl p-6 max-w-sm w-full space-y-5 shadow-2xl relative text-theme-primary">
+            {/* Close Button */}
+            <button
+              onClick={() => {
+                setShowAdminAuthModal(false);
+                setPassInput("");
+                setPassError("");
+              }}
+              className="absolute top-4 right-4 text-theme-secondary hover:text-theme-primary transition duration-150 text-sm font-bold cursor-pointer"
+            >
+              ✕
+            </button>
+
+            {/* Lock Header */}
+            <div className="text-center space-y-2">
+              <div className="inline-flex p-3 bg-red-500/10 text-red-500 rounded-full border border-red-500/20">
+                <ShieldAlert className="w-8 h-8 animate-pulse" />
+              </div>
+              <h3 className="text-base font-black uppercase tracking-wider">
+                {lang === "uk" ? "Підтвердження Адміністратора" : "Administrator Verification"}
+              </h3>
+              <p className="text-xs text-theme-secondary">
+                {lang === "uk" 
+                  ? "Введіть цифровий шифр-пароль для отримання повних прав доступу." 
+                  : "Input valid digital bypass security passcode to unlock developer tools."}
+              </p>
+            </div>
+
+            {/* Lock Form */}
+            <form 
+              onSubmit={(e) => {
+                e.preventDefault();
+                setPassError("");
+                const cleanVal = passInput.trim();
+                
+                if (cleanVal.length < 8) {
+                  setPassError(lang === "uk" ? "Помилка: Код має містити не менше 8 символів!" : "Error: Passcode must be at least 8 characters!");
+                  return;
+                }
+
+                if (!/^\d+$/.test(cleanVal)) {
+                  setPassError(lang === "uk" ? "Помилка: Код має складатися виключно з цифр!" : "Error: Passcode must be digits only!");
+                  return;
+                }
+
+                const validKeys = getAdminOTPs();
+                if (validKeys.includes(cleanVal)) {
+                  setAdminPassVerified(true);
+                  localStorage.setItem("wt_admin_verified", "true");
+                  setShowAdminAuthModal(false);
+                  setPassInput("");
+                  setImportMessage({ text: lang === "uk" ? "Доступ успішно авторизовано!" : "Developer status verified successfully!", error: false });
+                  setActiveTab("stats");
+                } else {
+                  setPassError(lang === "uk" ? "Неправильний шифр безпеки! Спробуйте ще раз." : "Invalid security token! Please retry.");
+                }
+              }} 
+              className="space-y-4"
+            >
+              <div className="space-y-2">
+                <label className="block text-[10px] font-bold text-theme-secondary uppercase tracking-widest text-center">
+                  {lang === "uk" ? "ВВЕДІТЬ ПІДТВЕРДЖУВАЛЬНИЙ КОД" : "INPUT AUTHORIZATION TOKEN"}
+                </label>
+                <input
+                  type="text"
+                  maxLength={12}
+                  value={passInput}
+                  onChange={(e) => setPassInput(e.target.value.replace(/\D/g, ''))}
+                  placeholder="12345678"
+                  autoFocus
+                  className="w-full text-center text-xl tracking-widest font-mono font-black bg-theme-surface border-2 border-theme-border focus:border-amber-500 rounded-lg p-3 text-theme-primary focus:outline-hidden"
+                />
+              </div>
+
+              {passError && (
+                <div className="p-3 bg-red-500/10 border border-red-500/20 rounded font-mono text-xs text-red-500 text-center animate-pulse">
+                  ⚠️ {passError}
+                </div>
+              )}
+
+              <button
+                type="submit"
+                className="w-full bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs uppercase py-3.5 rounded-lg border border-amber-600/30 transition shadow-lg shrink-0 cursor-pointer text-center"
+              >
+                🔓 {lang === "uk" ? "ПІДТВЕРДИТИ" : "VERIFY AND UNLOCK"}
+              </button>
+            </form>
+          </div>
+        </div>
       )}
 
     </div>

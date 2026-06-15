@@ -1,0 +1,1841 @@
+[
+  {
+    "id": "kuban",
+    "nameUA": "Кубань - Кримськ",
+    "nameEN": "Kuban - Krymsk",
+    "version": "1.41",
+    "date": "трав 2014",
+    "type": "ground",
+    "descriptionUA": "Гірська місцевість зі значними перепадами висот. Східний пагорб та центральна низина є зонами запеклих зіткнень.",
+    "descriptionEN": "Mountainous terrain with significant elevation changes. The eastern hill and central depression are competitive hotspots.",
+    "youtubeId": "b1oInKclpY0",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 15,
+        "y": 80,
+        "labelUA": "Західна база висадки",
+        "labelEN": "Allied Base West",
+        "descUA": "Початковий респавн союзних військ. Захищений скелями від прямих прострілів.",
+        "descEN": "Initial allied spawn zone. Shielded by rock ridges from early sniper line-of-sights."
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 85,
+        "y": 20,
+        "labelUA": "Східне депо ворога",
+        "labelEN": "Enemy Depot East",
+        "descUA": "Точка збору супротивника. Має зручний вихід на снайперський пагорб.",
+        "descEN": "Hostile spawn zone with immediate access routes to the eastern overlook hill."
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 30,
+        "y": 35,
+        "labelUA": "Точка A (Висота 112)",
+        "labelEN": "Capture A (Hill 112)",
+        "descUA": "Захоплюється з-за бетонних укріплень. Прострілюється з ущелини.",
+        "descEN": "Can be capped while utilizing cement barricades. Highly vulnerable to gorge snipers."
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Ущелина)",
+        "labelEN": "Capture B (Gorge)",
+        "descUA": "Центральна низина. Бажано заходити під покровом димової завіси.",
+        "descEN": "Central lowlands. Best approached under smoke cover due to crossfire lines."
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 70,
+        "y": 65,
+        "labelUA": "Точка C (Гірське Озеро)",
+        "labelEN": "Capture C (Mountain Lake)",
+        "descUA": "Відкритий фланг. Контролюється швидкими колесними танками.",
+        "descEN": "Open boundary water spot. Easily locked down by speed scouts and light tanks."
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 42,
+        "y": 22,
+        "labelUA": "Снайперський замок",
+        "labelEN": "Castle Overlook",
+        "descUA": "Контролює виїзди з точки А та центральної долини.",
+        "descEN": "Dominates routes coming from cap point A and central transitions."
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 20,
+        "y": 15,
+        "labelUA": "Обхід по краю прірви",
+        "labelEN": "Cliffside Flank Path",
+        "descUA": "Далекий прихований маневр для удару в тил північної бази.",
+        "descEN": "Far covert route for ambushing enemies occupying northern spawn corridors."
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 60,
+        "y": 42,
+        "labelUA": "Засідка біля кам'яних плит",
+        "labelEN": "Banded Boulder Hide",
+        "descUA": "Чудове місце з кущами для танків з хорошими УВН.",
+        "descEN": "Premium position with thick bush cover for hull-down vehicles."
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 48,
+        "y": 53,
+        "labelUA": "Ущелина смерті",
+        "labelEN": "Death Valley",
+        "descUA": "Тут збирається максимальна кількість артилерійських пусків.",
+        "descEN": "Subjected to maximum artillery concentration and sudden side fire."
+      }
+    ]
+  },
+  {
+    "id": "kursk",
+    "nameUA": "Курськ - Красний Октябрь",
+    "nameEN": "Kursk - Red October",
+    "version": "1.41",
+    "date": "май 2014",
+    "type": "ground",
+    "descriptionUA": "Широке відкрите поле з невеликими перепадами висот. Ідеальне для далекобійних дуелей та снайперської техніки.",
+    "descriptionEN": "A wide-open field featuring long lines of sight and small hamlets. Ideal for snipers and tank destroyers.",
+    "youtubeId": "zshXhLqO3xA",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 50,
+        "y": 90,
+        "labelUA": "Південна лінія розгортання",
+        "labelEN": "Southern Plains Spawn",
+        "descUA": "Широкий респавн за пагорбом. Безпечний роз'їзд до флангів.",
+        "descEN": "Spacious spawn. Allows for clean split-off into eastern or western pastures."
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 50,
+        "y": 10,
+        "labelUA": "Північна лінія розгортання",
+        "labelEN": "Northern Plains Spawn",
+        "descUA": "Вихід ворожої армади. Прямий простріл снайперських висот.",
+        "descEN": "Opponent launchpad. Immediate access to defensive forest treelines."
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 25,
+        "y": 50,
+        "labelUA": "Точка A (Цвинтар)",
+        "labelEN": "Capture A (Cemetery)",
+        "descUA": "Укриття серед склепів та зруйнованого муру. Захищає від далекобійного вогню.",
+        "descEN": "Shelter inside brick vaults and gravestones. Blocks long-range sniper dart lines."
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Селище Красний Октябрь)",
+        "labelEN": "Capture B (Siberian Village)",
+        "descUA": "Дерев'яні будинки, що ламаються пострілами. Контролюйте стіни.",
+        "descEN": "Destructible log cabins. Be alert for wall-collapses and close shots."
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 75,
+        "y": 52,
+        "labelUA": "Точка C (Панівна висота)",
+        "labelEN": "Capture C (High Mound)",
+        "descUA": "Холм з бліндажами. Захоплення дає огляд на всю карту.",
+        "descEN": "Bunkered high peak. Securing this ensures global observation of enemy moves."
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 80,
+        "y": 70,
+        "labelUA": "Східний снайперський лісок",
+        "labelEN": "East Forest Sniping Ridge",
+        "descUA": "Ідеальний для німецьких довгоствольних гармат 88-мм і 75-мм.",
+        "descEN": "Optimal for high-velocity heavy tank destroyers. Great hull-down potential."
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 10,
+        "y": 45,
+        "labelUA": "Глибокий західний яр",
+        "labelEN": "West Ravine Bypass",
+        "descUA": "Низина, невидима для снайперів з центру карти.",
+        "descEN": "Depressed terrain lane that is completely masked from central observers."
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 62,
+        "y": 48,
+        "labelUA": "Засідка в густих заростях",
+        "labelEN": "The Clump Bush Camo",
+        "descUA": "Маскування маскувальною сіткою біля окопу робить вас невидимим.",
+        "descEN": "Stationary camo net here makes your hull-down setups fully invisible."
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 48,
+        "y": 48,
+        "labelUA": "Центральна долина смерті",
+        "labelEN": "Cologne Open Runway",
+        "descUA": "Найбільш небезпечна ділянка. Постійні простріли.",
+        "descEN": "Crucial dead zone. Entering this clear field risks instant APFSDS elimination."
+      }
+    ]
+  },
+  {
+    "id": "mozdok",
+    "nameUA": "Моздок - Братське",
+    "nameEN": "Mozdok - Bratskoe",
+    "version": "1.43",
+    "date": "жовтень 2014",
+    "type": "ground",
+    "descriptionUA": "Хвиляста рівнина з великою кількістю складок місцевості. Зона навколо ущелин є критично важливою.",
+    "descriptionEN": "Rolling grassy fields intersected by dynamic gullies and a fast river bed. Good for active hull-down gameplay.",
+    "youtubeId": "S2l4178xZgI",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 15,
+        "y": 50,
+        "labelUA": "Західні ангари",
+        "labelEN": "West Hangar Line",
+        "descUA": "Респавн за залізничним насипом.",
+        "descEN": "Allied assembly base behind safe railroad barricade structures."
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 85,
+        "y": 50,
+        "labelUA": "Східна нафтобаза",
+        "labelEN": "East Tank Base",
+        "descUA": "Виїзд ворожих танків у напрямі плато.",
+        "descEN": "Enemy launch station with paths leading to the northern river beds."
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 48,
+        "y": 20,
+        "labelUA": "Точка A (Північні кургани)",
+        "labelEN": "Capture A (North Mounds)",
+        "descUA": "Серія пагорбів. Потрібні хороші кути нахилу гармати.",
+        "descEN": "Hillock array requiring supreme gun suppression values."
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Сухе русло)",
+        "labelEN": "Capture B (Dry Riverbed)",
+        "descUA": "Низина у центральній частині. Легко ховатися за вигинами річки.",
+        "descEN": "Depressed central river canal. Offers decent flank wiggling protection."
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 52,
+        "y": 80,
+        "labelUA": "Точка C (Зруйновані ферми)",
+        "labelEN": "Capture C (Ruined Farms)",
+        "descUA": "Залишки глиняних стін та копиці сіна. Ближній бій.",
+        "descEN": "Cracked brick walls and farmhouses. Recommended for swift tanks."
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 35,
+        "y": 25,
+        "labelUA": "Снайперський вал",
+        "labelEN": "West Ridge Bulwark",
+        "descUA": "Дає можливість прострілювати північний фланг та точку А.",
+        "descEN": "Provides direct line-of-sight to the northern heights and Point A."
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 50,
+        "y": 90,
+        "labelUA": "Південна долина",
+        "labelEN": "South Valley Run",
+        "descUA": "Глибокий обхід півднем через густий чагарник.",
+        "descEN": "Covert southern flanking corridor that easily bypasses central stalemates."
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 40,
+        "y": 72,
+        "labelUA": "Засідка біля ферми",
+        "labelEN": "Barn Silo Hideout",
+        "descUA": "Очікування легких танків ворога за завалами силосу.",
+        "descEN": "Waiting spot to slice enemy light scouts coming from southern flanks."
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 40,
+        "labelUA": "Смуга зустрічного вогню",
+        "labelEN": "Central Fire Zone",
+        "descUA": "Лобове зіткнення. Повністю відкрите для снайперів.",
+        "descEN": "Highly exposed cross-plain line. Highly unrecommended to cross early."
+      }
+    ]
+  },
+  {
+    "id": "hurtgen",
+    "nameUA": "Битва в лісі Хюртген - Фоссенек",
+    "nameEN": "Hurtgen Forest - Vossenack",
+    "version": "1.49",
+    "date": "квітень 2015",
+    "type": "ground",
+    "descriptionUA": "Густий сосновий ліс з пересіченим рельєфом, оточений відкритими сільськими полями та руїнами замку.",
+    "descriptionEN": "Dense pine woods contrasting with open rural settlements and defensive bunkers. Excellent for tactical close-quarters combat.",
+    "youtubeId": "Y3wzEdfw0F8",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 10,
+        "y": 60,
+        "labelUA": "Західний респ",
+        "labelEN": "West Vossenack Spawn"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 90,
+        "y": 40,
+        "labelUA": "Східний респ",
+        "labelEN": "East Vossenack Spawn"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 42,
+        "y": 25,
+        "labelUA": "Точка A (Селище)",
+        "labelEN": "Capture A (Church Town)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 55,
+        "labelUA": "Точка B (Лісопилка)",
+        "labelEN": "Capture B (Lumber Mill)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 58,
+        "y": 80,
+        "labelUA": "Точка C (Затоплена шахта)",
+        "labelEN": "Capture C (Flooded Mine)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 30,
+        "y": 30,
+        "labelUA": "Висота біля Фоссенека",
+        "labelEN": "Vossenack High Ridge"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 80,
+        "y": 85,
+        "labelUA": "Залісені південні яри",
+        "labelEN": "South Woods Gully"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 46,
+        "y": 60,
+        "labelUA": "Засідка в соснових заростях",
+        "labelEN": "Pine Cluster Hiding"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Зона обстрілу у лісопилки",
+        "labelEN": "Central Mill Crossing"
+      }
+    ]
+  },
+  {
+    "id": "berlin",
+    "nameUA": "Берлін - Кёнигсплац",
+    "nameEN": "Berlin - Konigsplatz",
+    "version": "1.49",
+    "date": "квітень 2015",
+    "type": "ground",
+    "descriptionUA": "Міські руїни навколо зруйнованого Рейхстагу. Ландшафт заповнений вирвами від авіабомб, барикадами та палаючою технікою.",
+    "descriptionEN": "Urban ruin layout around the war-torn Reichstag. Plagued with shell craters, trenches, and severe pileups.",
+    "youtubeId": "W22Zp5NcsKk",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 45,
+        "y": 88,
+        "labelUA": "Тиргартен (Південь)",
+        "labelEN": "Tiergarten Spawn"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 55,
+        "y": 12,
+        "labelUA": "Переправа Шпрее (Північ)",
+        "labelEN": "Spree Bridge Spawn"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 20,
+        "y": 52,
+        "labelUA": "Точка A (Кроль-Опера)",
+        "labelEN": "Capture A (Opera Ruins)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 53,
+        "y": 50,
+        "labelUA": "Точка B (Площа Кёнигсплац)",
+        "labelEN": "Capture B (Plaza Crater)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 80,
+        "y": 48,
+        "labelUA": "Точка C (Рейхстаг)",
+        "labelEN": "Capture C (Reichstag Hall)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 38,
+        "y": 72,
+        "labelUA": "Залізобетонний дот",
+        "labelEN": "Concrete Bunker Angle"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 12,
+        "y": 40,
+        "labelUA": "Вулиця Кроль-Опери",
+        "labelEN": "Opera Western Flank"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 68,
+        "y": 55,
+        "labelUA": "Завали перед Рейхстагом",
+        "labelEN": "Reichstag Rubble Pile"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 48,
+        "labelUA": "Відкритий плац Кёнигсплац",
+        "labelEN": "Open Plaza Carnage"
+      }
+    ]
+  },
+  {
+    "id": "normandy",
+    "nameUA": "Нормандія - Пляж Омаха",
+    "nameEN": "Normandy - Omaha Beach",
+    "version": "1.49",
+    "date": "квітень 2015",
+    "type": "ground",
+    "descriptionUA": "Прибережний пляж Омаха з лінією оборонних фортів на пагорбах та невеликим французьким містечком на захід від пляжу.",
+    "descriptionEN": "Coastal Omaha Beach featuring massive pillboxes, defensive structures, and a dense, historic Normandy village.",
+    "youtubeId": "z04P-m_7Zq0",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 50,
+        "y": 90,
+        "labelUA": "Союзна висадка (Шельф)",
+        "labelEN": "Beach Landing Zone"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 50,
+        "y": 10,
+        "labelUA": "Оборона за пагорбами (Північ)",
+        "labelEN": "Inland High Defense"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 20,
+        "y": 50,
+        "labelUA": "Точка A (Місто)",
+        "labelEN": "Capture A (Normandy Slums)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Центральна Церква)",
+        "labelEN": "Capture B (The Church Courtyard)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 80,
+        "y": 50,
+        "labelUA": "Точка C (Бункери оборони)",
+        "labelEN": "Capture C (Fortified Pillboxes)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 68,
+        "y": 32,
+        "labelUA": "Високі дюни у ДОТів",
+        "labelEN": "Pillbox Cliff Ranges"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 10,
+        "y": 65,
+        "labelUA": "Залізнична колія заходу",
+        "labelEN": "West Rail Line Flank"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 32,
+        "y": 42,
+        "labelUA": "Житлова огорожа міста",
+        "labelEN": "Town Hedge Shrub"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 72,
+        "labelUA": "Поле пляжної зачистки",
+        "labelEN": "Omaha Beach Fire Field"
+      }
+    ]
+  },
+  {
+    "id": "finland",
+    "nameUA": "Фінляндія - Озеро Ясне",
+    "nameEN": "Finland - Yasnoe Lake",
+    "version": "1.51",
+    "date": "июнь 2015",
+    "type": "ground",
+    "descriptionUA": "Засніжена локація з замерзлим озером, фінськими хатами та вузькими каньйонами між величними гранітними скелями.",
+    "descriptionEN": "Snow-covered setup around a frozen lake, boasting narrow cliff corridors and strategic defensive log structures.",
+    "youtubeId": "P7C0aR_rFts",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 10,
+        "y": 50,
+        "labelUA": "Західні хатини",
+        "labelEN": "West Cabin Spawner"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 90,
+        "y": 50,
+        "labelUA": "Східні висоти",
+        "labelEN": "East Pass Spawner"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 50,
+        "y": 20,
+        "labelUA": "Точка A (Північні скелі)",
+        "labelEN": "Capture A (North Arches)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Замерзлий острів)",
+        "labelEN": "Capture B (Frozen Center)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 50,
+        "y": 80,
+        "labelUA": "Точка C (Південне селище)",
+        "labelEN": "Capture C (South Hamlet)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 30,
+        "y": 35,
+        "labelUA": "Скельний карниз",
+        "labelEN": "Granite Cliff Ramp"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 50,
+        "y": 90,
+        "labelUA": "Крижаний обхід по краю",
+        "labelEN": "Glacial Outer Rims"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 68,
+        "y": 25,
+        "labelUA": "Тісний каньйонний мішок",
+        "labelEN": "Ice Tunnel Ambush"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 48,
+        "labelUA": "Дзеркало замерзлого озера",
+        "labelEN": "Lake Mirror Crossfire"
+      }
+    ]
+  },
+  {
+    "id": "rhine",
+    "nameUA": "Наступление к Рейну - Кельн",
+    "nameEN": "Advance to the Rhine - Cologne",
+    "version": "1.53",
+    "date": "листопад 2015",
+    "type": "ground",
+    "descriptionUA": "Класичне німецьке місто з величним Кельнським собором. Тісні квартали, довгі прострелювальні вулиці та завали будинків.",
+    "descriptionEN": "A layout set in war-torn Cologne with the prominent Cathedral in context. Dense blocks, long ruins, and debris corridors.",
+    "youtubeId": "bInAEx0_iSg",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 12,
+        "y": 50,
+        "labelUA": "Західний вокзал",
+        "labelEN": "West Train Terminal"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 88,
+        "y": 50,
+        "labelUA": "Східні ворота собору",
+        "labelEN": "Cathedral Gates East"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 50,
+        "y": 20,
+        "labelUA": "Точка A (Набережна Рейну)",
+        "labelEN": "Capture A (Rhine Bank Promenade)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Площа з монументом)",
+        "labelEN": "Capture B (Monument Circle)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 50,
+        "y": 80,
+        "labelUA": "Точка C (Центральний парк)",
+        "labelEN": "Capture C (Urban Green Park)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 40,
+        "y": 15,
+        "labelUA": "Проспект вздовж ріки",
+        "labelEN": "Riverfront Long Alley"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 48,
+        "y": 92,
+        "labelUA": "Південний бульвар",
+        "labelEN": "South Outer Boulevard"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 62,
+        "y": 48,
+        "labelUA": "Зруйнований трамвай",
+        "labelEN": "Crashed Tramcar Hide"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Круглий монумент прострілу",
+        "labelEN": "Central Plaza Meatgrinder"
+      }
+    ]
+  },
+  {
+    "id": "stalingrad",
+    "nameUA": "Сталінград - СТЗ",
+    "nameEN": "Stalingrad - Tractor Factory",
+    "version": "1.53",
+    "date": "листопад 2015",
+    "type": "ground",
+    "descriptionUA": "Засніжена промислова зона Сталінградського тракторного заводу. Заводські цехи, залізничні платформи та лабіринти труб.",
+    "descriptionEN": "Deeply frozen industrial plant complex. Rubbly factories, warehouse structures, and complex pipeline scaffolding.",
+    "youtubeId": "J0oH1Fw-8_0",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 50,
+        "y": 88,
+        "labelUA": "Залізничний депо-південь",
+        "labelEN": "South Rail depo Spawn"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 50,
+        "y": 12,
+        "labelUA": "Північні робітничі гуртожитки",
+        "labelEN": "North Worker Barracks"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 22,
+        "y": 50,
+        "labelUA": "Точка A (Ливарний цех)",
+        "labelEN": "Capture A (Iron Foundry)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Головний конвеєр)",
+        "labelEN": "Capture B (Assembly Hall)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 78,
+        "y": 50,
+        "labelUA": "Точка C (Вугільні склади)",
+        "labelEN": "Capture C (Coal Storage Tubes)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 66,
+        "y": 32,
+        "labelUA": "Прольоти між цехами",
+        "labelEN": "Overhead Pipe Grid"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 10,
+        "y": 45,
+        "labelUA": "Заливний берег Волги",
+        "labelEN": "Volga Frozen Shore"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 42,
+        "y": 62,
+        "labelUA": "Кабіна крана",
+        "labelEN": "Overhead Crane Shaft"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 48,
+        "labelUA": "Залізнична рампа",
+        "labelEN": "Central Rail Fire Field"
+      }
+    ]
+  },
+  {
+    "id": "elalamein",
+    "nameUA": "Друга битва при Ель-Аламейні",
+    "nameEN": "Second Battle of El Alamein",
+    "version": "1.55",
+    "date": "декабрь 2015",
+    "type": "ground",
+    "descriptionUA": "Безмежна пустеля Північної Африки. Масивна кам'яниста крепость на височині, руїни древніх споруд та піщані дюни.",
+    "descriptionEN": "Massive Egyptian desert layout. Features a major elevated stone fortress, oasis palm settlements, and sand crests.",
+    "youtubeId": "0qK-3B2jZzU",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 15,
+        "y": 85,
+        "labelUA": "Союзна оаза",
+        "labelEN": "Allied Oasis Camp"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 85,
+        "y": 15,
+        "labelUA": "Укріплений аеродром",
+        "labelEN": "Enemy Airbase Fort"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 22,
+        "y": 30,
+        "labelUA": "Точка A (Кам'яні плато)",
+        "labelEN": "Capture A (Rocky Ridge Outpost)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Пустельний редут)",
+        "labelEN": "Capture B (Desert Entrenchments)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 78,
+        "y": 70,
+        "labelUA": "Точка C (Стародавні руїни)",
+        "labelEN": "Capture C (Ancient Columns)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 30,
+        "y": 24,
+        "labelUA": "Стіна старої цитаделі",
+        "labelEN": "Ancient Citadel Sniper"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 90,
+        "y": 90,
+        "labelUA": "Глибокі дюни півдня",
+        "labelEN": "Deep Southern Dunes Flank"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 58,
+        "y": 42,
+        "labelUA": "Зарості фінікових пальм",
+        "labelEN": "Palm Oasis Ambush Spot"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 48,
+        "y": 52,
+        "labelUA": "Плато відкритого ураження",
+        "labelEN": "Flat Dune Killing Grounds"
+      }
+    ]
+  },
+  {
+    "id": "tunis",
+    "nameUA": "Туніс - Акарит",
+    "nameEN": "Tunisia - Akarit",
+    "version": "1.55",
+    "date": "грудень 2015",
+    "type": "ground",
+    "descriptionUA": "Мальовниче місто на пустельному узбережжі. Кам'яний міст над пересохлим річищем та арабські квартали.",
+    "descriptionEN": "Scenic North African costline. Contains an iconic stone arched bridge above a dry riverbed, and traditional Arabic flat-roof blocks.",
+    "youtubeId": "U3nI7Y-w69Y",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 50,
+        "y": 90,
+        "labelUA": "Південний табір у дюн",
+        "labelEN": "South Desert Outpost"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 50,
+        "y": 10,
+        "labelUA": "Північні скелі над морем",
+        "labelEN": "North Sea Cliff Spawn"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 20,
+        "y": 48,
+        "labelUA": "Точка A (Плоскі дахи містечка)",
+        "labelEN": "Capture A (Medina Alleyway)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 48,
+        "labelUA": "Точка B (Великий віадук)",
+        "labelEN": "Capture B (Arched Bridge Span)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 80,
+        "y": 48,
+        "labelUA": "Точка C (Каньйонний табір)",
+        "labelEN": "Capture C (Clay Canyons)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 35,
+        "y": 30,
+        "labelUA": "Плато над віадуком",
+        "labelEN": "Overarching Viaduct Hill"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 12,
+        "y": 80,
+        "labelUA": "Прохід під морськими скелями",
+        "labelEN": "Water Tidal Flanking"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 30,
+        "y": 55,
+        "labelUA": "Арка площі коней",
+        "labelEN": "Market Archway Hide"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 62,
+        "labelUA": "Сухе русло під мостом",
+        "labelEN": "Viaduct Dry Riverbed Kill"
+      }
+    ]
+  },
+  {
+    "id": "volokolamsk",
+    "nameUA": "Волоколамськ - Нелідово",
+    "nameEN": "Volokolamsk - Nelidovo",
+    "version": "1.57",
+    "date": "березень 2016",
+    "type": "ground",
+    "descriptionUA": "Глибокі сніги підмосковних полів, порізані лісистими пагорбами, зруйнованими дерев'яними селами та залізничним насипом.",
+    "descriptionEN": "Massive snowdepths in Siberian-like forest expanses. Interlaced with ruined wooden hamlets and high rail causeways.",
+    "youtubeId": "LgPhXf7NqRE",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 15,
+        "y": 80,
+        "labelUA": "Південно-західне лісництво",
+        "labelEN": "South-West Forest Spawn"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 85,
+        "y": 20,
+        "labelUA": "Північно-східна застава",
+        "labelEN": "North-East Outpost Spawn"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 32,
+        "y": 40,
+        "labelUA": "Точка A (Селище Нелідово)",
+        "labelEN": "Capture A (Siberian Log Houses)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 52,
+        "y": 50,
+        "labelUA": "Точка B (Залізничний роз'їзд)",
+        "labelEN": "Capture B (Railroad Junction)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 72,
+        "y": 62,
+        "labelUA": "Точка C (Березовий гай)",
+        "labelEN": "Capture C (Trenched Birchwood)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 42,
+        "y": 28,
+        "labelUA": "Холм з водонапірною вежею",
+        "labelEN": "Water Tower Observatory"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 20,
+        "y": 18,
+        "labelUA": "Дальній північний берег",
+        "labelEN": "Far North Birch Run"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 60,
+        "y": 52,
+        "labelUA": "Пастка біля напівзруйнованої хати",
+        "labelEN": "Broken Wood Cabin Corner"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 45,
+        "labelUA": "Насип залізничної колії",
+        "labelEN": "Open Rail Embankment Zone"
+      }
+    ]
+  },
+  {
+    "id": "novorossiysk",
+    "nameUA": "Порт Новоросійськ",
+    "nameEN": "Port Novorossiysk",
+    "version": "1.59",
+    "date": "июнь 2016",
+    "type": "ground",
+    "descriptionUA": "Промислова зона прибережного порту з купою складів, залізничних вагонів, портових кранів та зруйнованих багатоквартирних будинків.",
+    "descriptionEN": "Industrial coast port layout stacked with shipping warehouses, train lines, harbors, and severely bombed city blocks.",
+    "youtubeId": "Wly9Mv2m8tA",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 10,
+        "y": 35,
+        "labelUA": "Цементна прохідна",
+        "labelEN": "Cement Works Terminal"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 90,
+        "y": 65,
+        "labelUA": "Вугільні причали",
+        "labelEN": "Coal Quay Spawn"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 30,
+        "y": 50,
+        "labelUA": "Точка A (Ряди вагонів)",
+        "labelEN": "Capture A (Siding Train Cars)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Морський вокзал)",
+        "labelEN": "Capture B (Harbor Terminal Building)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 70,
+        "y": 50,
+        "labelUA": "Точка C (Зруйновані цегляні майстерні)",
+        "labelEN": "Capture C (Crumpled Machineries)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 42,
+        "y": 18,
+        "labelUA": "Поворот сухих доків",
+        "labelEN": "Dry Dock Gantry Corner"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 50,
+        "y": 88,
+        "labelUA": "Південний хвилеріз причалу",
+        "labelEN": "Breakwater Sea Wall Flank"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 62,
+        "y": 42,
+        "labelUA": "Стіна складу №4",
+        "labelEN": "Warehouse 4 Alleyway"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 48,
+        "y": 55,
+        "labelUA": "Центральний портальний кран",
+        "labelEN": "Port Gantry Open Passage"
+      }
+    ]
+  },
+  {
+    "id": "sinai",
+    "nameUA": "Синай - Суецький канал",
+    "nameEN": "Sinai - Suez Canal",
+    "version": "1.63",
+    "date": "вересень 2016",
+    "type": "ground",
+    "descriptionUA": "Спекотна пустельна локація з бетонними нафтосховищами Синаю, невеликим селищем та снайперськими дюнами зі сходу.",
+    "descriptionEN": "Grimy, hot sands surrounding a small Egyptian town and industrial oil depots with towering concrete cylinders.",
+    "youtubeId": "zX6045E1Prc",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 15,
+        "y": 50,
+        "labelUA": "Західна долина дюн",
+        "labelEN": "West Dunes Defilade"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 85,
+        "y": 50,
+        "labelUA": "Східні нафтоцистерни",
+        "labelEN": "East Oil Terminal Gate"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 48,
+        "y": 20,
+        "labelUA": "Точка A (Нафтобаза)",
+        "labelEN": "Capture A (Petroleum Tanks)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Глиняне селище)",
+        "labelEN": "Capture B (Suez Mudbrick Outpost)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 52,
+        "y": 80,
+        "labelUA": "Точка C (Дальні дюни)",
+        "labelEN": "Capture C (South Ridge Dune)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 68,
+        "y": 75,
+        "labelUA": "Панівний пагорб Суецу",
+        "labelEN": "Sinai Overlord Mound"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 48,
+        "y": 92,
+        "labelUA": "Глибокий пустельний маневр",
+        "labelEN": "Far South Flat Ridge Ride"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 38,
+        "y": 42,
+        "labelUA": "Сегмент бетонного муру",
+        "labelEN": "Cracked Fuel Fence Base"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 48,
+        "y": 48,
+        "labelUA": "Перехрестя селища ураження",
+        "labelEN": "Suez Village Central Crossing"
+      }
+    ]
+  },
+  {
+    "id": "abandoned_factory",
+    "nameUA": "Покинутий завод",
+    "nameEN": "Abandoned Factory",
+    "version": "1.65",
+    "date": "декабрь 2016",
+    "type": "ground",
+    "descriptionUA": "Промисловий гігант з лабіринтами цехів, залізничними коліями, кранами, горами вугілля та безліччю засідок.",
+    "descriptionEN": "USSR post-industrial site packing tight warehouse channels, massive coal piles, iron gates, and infinite tactical pockets.",
+    "youtubeId": "hXitX7_w7d8",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 15,
+        "y": 50,
+        "labelUA": "Червона прохідна (Захід)",
+        "labelEN": "Red West Gate Terminal"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 85,
+        "y": 50,
+        "labelUA": "Ремонтне депо (Схід)",
+        "labelEN": "Engine Repair East Terminal"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 50,
+        "y": 18,
+        "labelUA": "Точка A (Вугільне депо)",
+        "labelEN": "Capture A (Coal Loading Docks)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Головний плавильний цех)",
+        "labelEN": "Capture B (Heavy Extrusion Shop)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 50,
+        "y": 82,
+        "labelUA": "Точка C (Дерев'яні навіси)",
+        "labelEN": "Capture C (Lumber Pile Sheds)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 68,
+        "y": 32,
+        "labelUA": "Містки кабельних естакад",
+        "labelEN": "Catwalk Pipeline Gantry"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 48,
+        "y": 92,
+        "labelUA": "Південне болото з трубою",
+        "labelEN": "South Wetland Swamp Line"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 38,
+        "y": 42,
+        "labelUA": "Іржавий шламонакопичувач",
+        "labelEN": "Silt Basin Slurry Boiler"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Транспортна колія прострілу",
+        "labelEN": "Train Yard Open Alleyway"
+      }
+    ]
+  },
+  {
+    "id": "ardennes",
+    "nameUA": "Арденни - Бастонь",
+    "nameEN": "Ardennes - Bastogne",
+    "version": "1.67",
+    "date": "березень 2017",
+    "type": "ground",
+    "descriptionUA": "Густі бельгійські ліси та мальовниче місто Бастонь з брукованими вуличками, розділене невеликою річкою.",
+    "descriptionEN": "Picturesque Belgian woods surrounding Bastogne. Features cobbled roads, a river canal, and tight stone housing.",
+    "youtubeId": "Fp3U84a3M18",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 50,
+        "y": 90,
+        "labelUA": "Південна низина",
+        "labelEN": "South Bastogne Foothills"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 50,
+        "y": 10,
+        "labelUA": "Північні лісові просіки",
+        "labelEN": "North Ardennes Slopes"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 20,
+        "y": 50,
+        "labelUA": "Точка A (Урбаністичне перехрестя)",
+        "labelEN": "Capture A (Bastogne Cross)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Нотр-Дам де Бастонь)",
+        "labelEN": "Capture B (Cathedral Plaza Ruins)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 80,
+        "y": 50,
+        "labelUA": "Точка C (Холми з ялинами)",
+        "labelEN": "Capture C (Coniferous High Knoll)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 68,
+        "y": 32,
+        "labelUA": "Скеля у ялинах ураження",
+        "labelEN": "Ardennes High Cliff Pine"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 12,
+        "y": 68,
+        "labelUA": "Рукав бельгійської річки",
+        "labelEN": "Belgian Creek Bed Flank"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 38,
+        "y": 42,
+        "labelUA": "Розвалена баварська пекарня",
+        "labelEN": "Collapsed Bakery Cellar"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 72,
+        "labelUA": "Шосейне кільце ураження",
+        "labelEN": "Bastogne Main Gateway Fire"
+      }
+    ]
+  },
+  {
+    "id": "fulda",
+    "nameUA": "Фульда - Наглядовий пункт Альфа",
+    "nameEN": "Fulda Gap - Point Alpha",
+    "version": "1.71",
+    "date": "вересень 2017",
+    "type": "ground",
+    "descriptionUA": "Масштабна локація холодної війни в Німеччині. Військові бази США та СРСР, поля вітряків, густі ліси та замок Шлоссбюрг.",
+    "descriptionEN": "Colossal Cold War layout in Germany. Comprises NATO Point Alpha, high windmill fields, and a medieval fortress height.",
+    "youtubeId": "Yt89R_f32jI",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 15,
+        "y": 80,
+        "labelUA": "Американський форт Альфа",
+        "labelEN": "NATO point Alpha Campus"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 85,
+        "y": 20,
+        "labelUA": "Радянський передовий табір",
+        "labelEN": "Red WP Camp Frontier"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 30,
+        "y": 30,
+        "labelUA": "Точка A (РЛС станція США)",
+        "labelEN": "Capture A (NATO Radar Array)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Замок Шлоссбюрг)",
+        "labelEN": "Capture B (Schlossburg Ruined Rampart)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 70,
+        "y": 70,
+        "labelUA": "Точка C (Ланцюг вітряних генераторів)",
+        "labelEN": "Capture C (Windmill Farm Fields)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 42,
+        "y": 20,
+        "labelUA": "Холм купола телеметрії",
+        "labelEN": "Telecom Dome Sniper Point"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 88,
+        "y": 85,
+        "labelUA": "Шосе автобану Е40",
+        "labelEN": "Autobahn Highway Flanking"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 58,
+        "y": 42,
+        "labelUA": "Густий німецький ялинник",
+        "labelEN": "Dark Spruce Forest Bush"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 52,
+        "labelUA": "Сектор прямої стрільби ПТУР",
+        "labelEN": "Central Plain ATGM Shooting"
+      }
+    ]
+  },
+  {
+    "id": "maginot",
+    "nameUA": "Лінія Мажино - Седан",
+    "nameEN": "Maginot Line - Sedan",
+    "version": "1.75",
+    "date": "грудень 2017",
+    "type": "ground",
+    "descriptionUA": "Історична лінія оборони у Франції. Масивні залізобетонні доти, протитанкові надовби, річка та затишне французьке село.",
+    "descriptionEN": "Legendary French defensive system. Studded with heavy bunkers, tank barriers, dynamic fields, and rural settlements.",
+    "youtubeId": "zXh7l_fT3m8",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 15,
+        "y": 75,
+        "labelUA": "Французький редут захід",
+        "labelEN": "West Maginot Casemates"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 85,
+        "y": 25,
+        "labelUA": "Військове шосе схід",
+        "labelEN": "East Route Army Camp"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 28,
+        "y": 30,
+        "labelUA": "Точка A (Укріплений ДОТ №10)",
+        "labelEN": "Capture A (Pillbox Fort 10)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Центр Седана)",
+        "labelEN": "Capture B (Sedan Church Square)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 72,
+        "y": 70,
+        "labelUA": "Точка C (Зуби дракона)",
+        "labelEN": "Capture C (Dragon Teeth Fields)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 40,
+        "y": 20,
+        "labelUA": "Кам'яна височина над ДОТом",
+        "labelEN": "Upper Bunker Mound"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 12,
+        "y": 90,
+        "labelUA": "Французька залізниця біля боліт",
+        "labelEN": "Far West Rail Embankment"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 58,
+        "y": 42,
+        "labelUA": "Винний підвал французької вілли",
+        "labelEN": "Sedan Wine Cellar Hide"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 62,
+        "labelUA": "Протитанковий завал",
+        "labelEN": "Dragon Teeth Bottleneck Strike"
+      }
+    ]
+  },
+  {
+    "id": "italy",
+    "nameUA": "Італія - Кампанія",
+    "nameEN": "Italy - Campania",
+    "version": "1.79",
+    "date": "червень 2018",
+    "type": "ground",
+    "descriptionUA": "Мальовниче італійське узбережжя, наповнене оливковими гаями, виноградниками, затишними брукованими віллами та залізничним вокзалом.",
+    "descriptionEN": "Scenic Italian countryside rich in vineyard hills, classic olive groves, beautiful tile-roofed villas, and a railway depot.",
+    "youtubeId": "zX6056B3Kkc",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 48,
+        "y": 92,
+        "labelUA": "Тирренське узбережжя",
+        "labelEN": "Tyrrhenian Coast Spawner"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 52,
+        "y": 8,
+        "labelUA": "Віадук Кава-де-Тіррені",
+        "labelEN": "North Viaduct Spawner"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 20,
+        "y": 50,
+        "labelUA": "Точка A (Ренесансна Вілла)",
+        "labelEN": "Capture A (Tiled Roof Villa)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Площа з фонтаном)",
+        "labelEN": "Capture B (Campania Town Center)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 80,
+        "y": 50,
+        "labelUA": "Точка C (Оливкові плантації)",
+        "labelEN": "Capture C (Olive Clumps Hill)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 66,
+        "y": 28,
+        "labelUA": "Акведук залізниці",
+        "labelEN": "Roman Archway Rail Overpass"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 10,
+        "y": 65,
+        "labelUA": "Стародавній мур Колізею",
+        "labelEN": "Semicircular Ancient Wall Flank"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 38,
+        "y": 42,
+        "labelUA": "Кущі кипарисової алеї",
+        "labelEN": "Cypress Valley Treeline Hide"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 72,
+        "labelUA": "Бруковане шосе до Кампанії",
+        "labelEN": "Campania Gateway Boulevard Fire"
+      }
+    ]
+  },
+  {
+    "id": "breslau",
+    "nameUA": "Бреслау - Вроцлав",
+    "nameEN": "Breslau - Wroclaw",
+    "version": "2.9",
+    "date": "вересень 2021",
+    "type": "ground",
+    "descriptionUA": "Дуже щільне міське середовище Вроцлава 1945 року. Вузькі проходи між величними будинками, трамвайні колії та барикади.",
+    "descriptionEN": "Incredibly dense urban setup in Silesian Wroclaw 1945. Tight gothic brick layout, tram barricades, and deep cellars.",
+    "youtubeId": "zX7049D7Kkc",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 12,
+        "y": 50,
+        "labelUA": "Західна народна паркова зона",
+        "labelEN": "West Breslau Park"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 88,
+        "y": 50,
+        "labelUA": "Східна набережна річки Одра",
+        "labelEN": "Oder River Harbor"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 50,
+        "y": 20,
+        "labelUA": "Точка A (Центральний Поштамт)",
+        "labelEN": "Capture A (Grand Post Office)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Середньовічний Ринок)",
+        "labelEN": "Capture B (Silesian Market Hall)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 50,
+        "y": 80,
+        "labelUA": "Точка C (Готичний Собор пороху)",
+        "labelEN": "Capture C (Silesian Cathedral Spire)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 40,
+        "y": 15,
+        "labelUA": "Шлюзи річки Одри",
+        "labelEN": "Oder Lock Gates Longshot"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 48,
+        "y": 92,
+        "labelUA": "Обхідна кільцева лінія",
+        "labelEN": "South Ring Road Bypass"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 62,
+        "y": 48,
+        "labelUA": "Сейфові шафи Рейхсбанку",
+        "labelEN": "Collapsed Bank Basement Vault"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Перехрестя у торгових рядів",
+        "labelEN": "Main Silesian Market Crossfire"
+      }
+    ]
+  },
+  {
+    "id": "abandoned_city",
+    "nameUA": "Покинуте місто - Ткварчелі",
+    "nameEN": "Abandoned City - Tkvarchreli",
+    "version": "2.17",
+    "date": "червень 2022",
+    "type": "ground",
+    "descriptionUA": "Мальовниче занедбане гірниче місто на Кавказі. Поєднання складного гірського рельєфу, шахт, радянських палаців культури та мостів.",
+    "descriptionEN": "Stunning decayed mining site in Caucasian Tkvarchreli. Packs high cable ways, overgrown Soviet palaces, and deep mountain gorges.",
+    "youtubeId": "zX809Fk4Qhc",
+    "tacticalPoints": [
+      {
+        "id": "sp_al",
+        "type": "allied_spawn",
+        "x": 15,
+        "y": 85,
+        "labelUA": "Залізничний вокзал ущелини",
+        "labelEN": "South Ravine Railway Spawn"
+      },
+      {
+        "id": "sp_en",
+        "type": "enemy_spawn",
+        "x": 85,
+        "y": 15,
+        "labelUA": "Верхня шахта під скелею",
+        "labelEN": "North High Mountain Shafts"
+      },
+      {
+        "id": "pt_a",
+        "type": "cap_point",
+        "x": 25,
+        "y": 35,
+        "labelUA": "Точка A (Канатна пасажирська станція)",
+        "labelEN": "Capture A (Cable Car Station)"
+      },
+      {
+        "id": "pt_b",
+        "type": "cap_point",
+        "x": 50,
+        "y": 50,
+        "labelUA": "Точка B (Бетонний міст Ткварчелі)",
+        "labelEN": "Capture B (High Arched Train Viaduct)"
+      },
+      {
+        "id": "pt_c",
+        "type": "cap_point",
+        "x": 75,
+        "y": 65,
+        "labelUA": "Точка C (Палац Культури Шахтарів)",
+        "labelEN": "Capture C (Soviet Miners Palace)"
+      },
+      {
+        "id": "snp1",
+        "type": "sniper",
+        "x": 35,
+        "y": 20,
+        "labelUA": "Занедбаний шахтний ствол",
+        "labelEN": "High Mountain Shaft Lookout"
+      },
+      {
+        "id": "flk1",
+        "type": "flank",
+        "x": 88,
+        "y": 80,
+        "labelUA": "Гірський обхідний серпантин",
+        "labelEN": "Gorge Serpentine Pass"
+      },
+      {
+        "id": "amb1",
+        "type": "ambush",
+        "x": 62,
+        "y": 45,
+        "labelUA": "Заржавілий автобусний парк",
+        "labelEN": "Decayed Transit Bus Depot"
+      },
+      {
+        "id": "dmg1",
+        "type": "danger_zone",
+        "x": 48,
+        "y": 55,
+        "labelUA": "Двори під балюстрадою палацу",
+        "labelEN": "Miner Palace Courtyard Cross"
+      }
+    ]
+  }
+]

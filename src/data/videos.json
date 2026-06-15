@@ -1,0 +1,122 @@
+[
+  {
+    "id": "vid_kuban_1",
+    "targetId": "kuban",
+    "category": "maps",
+    "titleUA": "Тактичний огляд карти Кубань від ветеранів",
+    "titleEN": "Tactical breakdown of Kuban map",
+    "youtubeId": "b1oInKclpY0"
+  },
+  {
+    "id": "vid_kuban_2",
+    "targetId": "kuban",
+    "category": "maps",
+    "titleUA": "Найкращі простріли та обходи: Кубань",
+    "titleEN": "Best Snipe Lines on Kuban Map",
+    "youtubeId": "S2l4178xZgI"
+  },
+  {
+    "id": "vid_kursk_1",
+    "targetId": "kursk",
+    "category": "maps",
+    "titleUA": "Снайперські тактики на полях Курська",
+    "titleEN": "Plains of Kursk Long Range Sniping Guide",
+    "youtubeId": "zshXhLqO3xA"
+  },
+  {
+    "id": "vid_mozdok_1",
+    "targetId": "mozdok",
+    "category": "maps",
+    "titleUA": "Як грати Моздок у реалістичних боях",
+    "titleEN": "Mozdok Map Complete Tank Battle Guide",
+    "youtubeId": "S2l4178xZgI"
+  },
+  {
+    "id": "vid_m3_stuart_1",
+    "targetId": "m3_stuart",
+    "category": "vehicles",
+    "titleUA": "M3 Stuart - Гайд для новачків",
+    "titleEN": "M3 Stuart - Ultimate Starter Guide & Gameplay",
+    "youtubeId": "W6U_3L4hB2o"
+  },
+  {
+    "id": "vid_panzer_ii_c_1",
+    "targetId": "panzer_ii_c",
+    "category": "vehicles",
+    "titleUA": "Німецька імба 1 рангу: Panzer II C",
+    "titleEN": "Panzer II Ausf. C Low Tier Domination Guide",
+    "youtubeId": "W6U_3L4hB2o"
+  },
+  {
+    "id": "vid_bt_7_1",
+    "targetId": "bt_7",
+    "category": "vehicles",
+    "titleUA": "БТ-7 - Найшвидший танк у грі",
+    "titleEN": "BT-7 F1 Formula Racing Tank Review",
+    "youtubeId": "W6U_3L4hB2o"
+  },
+  {
+    "id": "vid_leopard_2a7v_1",
+    "targetId": "leopard_2a7v_high",
+    "category": "vehicles",
+    "titleUA": "Leopard 2A7V - Найкращий танк у грі?",
+    "titleEN": "Leopard 2A7V Review & Flawless Gameplay",
+    "youtubeId": "T3Z6Hq3q1H0"
+  },
+  {
+    "id": "vid_leopard_2a7v_2",
+    "targetId": "leopard_2a7v_high",
+    "category": "vehicles",
+    "titleUA": "Leopard 2A7V Броня та аспекти геймплею",
+    "titleEN": "Leopard 120mm Gunner Tutorial & Armor",
+    "youtubeId": "zX7049D7Kkc"
+  },
+  {
+    "id": "vid_f16c_1",
+    "targetId": "f16c_block50_high",
+    "category": "vehicles",
+    "titleUA": "F-16C Block 50 - Повітряне домінування",
+    "titleEN": "F-16C Block 50 Top Tier Air RB Guide",
+    "youtubeId": "zY8-D6L7HnQ"
+  },
+  {
+    "id": "vid_su27sm_1",
+    "targetId": "su27sm_high",
+    "category": "vehicles",
+    "titleUA": "Су-27СМ - Гайд по ракетах та радару",
+    "titleEN": "Su-27SM Flanker Air-to-Air Tactics Guide",
+    "youtubeId": "9lR_S0X_h7k"
+  },
+  {
+    "id": "vid_spitfire_1",
+    "targetId": "spitfire_mk9_aviation",
+    "category": "vehicles",
+    "titleUA": "Спітфайр LF Mk IX - Король догфайту",
+    "titleEN": "Spitfire LF Mk IX Ultimate Spitfire Tutorial",
+    "youtubeId": "Y_4P6S_Vb_g"
+  },
+  {
+    "id": "vid_t34_1",
+    "targetId": "t_34_85_d5t",
+    "category": "vehicles",
+    "titleUA": "Т-34-85 (Д-5Т) Гайд та тактичні маневри",
+    "titleEN": "T-34-85 Medium Tank Tactical Strategy Guide",
+    "youtubeId": "vO_reK-5uF0"
+  },
+  {
+    "id": "vid_ab_battles",
+    "targetId": "ab",
+    "category": "battles",
+    "titleUA": "Аркадні бої (AB) - Поради для новачків",
+    "titleEN": "Arcade Battles (AB) Navigation & Lead Guide",
+    "youtubeId": "W6U_3L4hB2o"
+  },
+  {
+    "id": "vid_rb_battles",
+    "targetId": "rb",
+    "category": "battles",
+    "titleUA": "Реалістичні бої (RB) - Тактика виявлення цілей",
+    "titleEN": "Realistic Battles (RB) Spotting & Armor Guide",
+    "youtubeId": "b1oInKclpY0"
+  }
+]

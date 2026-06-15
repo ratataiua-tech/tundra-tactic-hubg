@@ -1,0 +1,22 @@
+{
+  "name": "War Thunder Tactical & Statistics Guide",
+  "short_name": "WT Tactical Hub",
+  "description": "Interactive tactical guides, maps, vehicle winrates, setups, and ammunition ballistics for War Thunder.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#b91c1c",
+  "icons": [
+    {
+      "src": "assets/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

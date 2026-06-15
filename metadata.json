@@ -1,0 +1,6 @@
+{
+  "name": "Tundra Tactic Hub",
+  "description": "An interactive tactical and statistical hub for Tundra Tactic Hub with map position overlays, Battle Rating lineups, ammunition ballistics, and stats management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

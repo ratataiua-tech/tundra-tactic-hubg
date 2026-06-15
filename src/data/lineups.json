@@ -1,0 +1,372 @@
+[
+  {
+    "id": "setup_usa_10",
+    "nation": "usa",
+    "br": 1,
+    "titleUA": "Початковий маневрений резерв США (BR 1.0)",
+    "titleEN": "US Starter Mobile Reserve (BR 1.0)",
+    "difficultyUA": "Низька",
+    "difficultyEN": "Easy",
+    "descriptionUA": "Швидкісні легкі танки серії Стюарт та маневрені стартові біплани для миттєвих захоплень.",
+    "descriptionEN": "Fast Stuart starter light vehicles paired with highly agile biplanes for immediate tactical responses.",
+    "groundUnits": [
+      {
+        "name": "M2A4 Stuart",
+        "type": "Light Tank",
+        "roleUA": "Надразоб'ємний рейд по околицях, пробиття у борти.",
+        "roleEN": "Performs high speed early lane caps, wiggles around walls."
+      },
+      {
+        "name": "LVT(A)(1)",
+        "type": "Light Tank",
+        "roleUA": "Велетенський амфібійний екіпаж, важко знешкодити першим вистрілом.",
+        "roleEN": "Huge crew and swim capabilities. Survives early shell penetrations easily."
+      }
+    ],
+    "airUnits": [
+      {
+        "name": "F3F-2",
+        "type": "Fighter",
+        "roleUA": "Чудовий біплан з двома точковими 100-фунтовими бомбами.",
+        "roleEN": "Extremely sharp turning biplane carrying double 100lb ordnance."
+      }
+    ],
+    "navalUnits": [
+      {
+        "name": "PT-6",
+        "type": "Motor Torpedo Boat",
+        "roleUA": "Швидкий патрульний торпедоносець.",
+        "roleEN": "Nimble torpedo deliverer for shoreline ambushes."
+      }
+    ]
+  },
+  {
+    "id": "setup_usa_57",
+    "nation": "usa",
+    "br": 5.7,
+    "titleUA": "Універсальний штурмовий сетап США (BR 5.7)",
+    "titleEN": "Universal US Assault Lineup (BR 5.7)",
+    "difficultyUA": "Середня",
+    "difficultyEN": "Medium",
+    "descriptionUA": "Дуже збалансований класичний набір техніки, що поєднує стабілізовані гармати Шерманів та смертоносну штурмову авіацію США з бомбовим навантаженням.",
+    "descriptionEN": "Highly balanced mid-tier setup combining stabilized Sherman cannons with the feared US high-capacity CAS airplanes.",
+    "groundUnits": [
+      {
+        "name": "M4A3 (76) W HVSS",
+        "type": "Medium Tank",
+        "roleUA": "Основна бойова одиниця, ведення вогню в русі за рахунок стабілізатора.",
+        "roleEN": "Primary combat unit, fires on the move with single-axis stabilizer."
+      },
+      {
+        "name": "M18 Hellcat",
+        "type": "Tank Destroyer",
+        "roleUA": "Швидкісне флангування, захоплення та завоювання дальніх позицій на старті.",
+        "roleEN": "High-velocity flanking, immediate cap rushes and sniping ambushes."
+      }
+    ],
+    "airUnits": [
+      {
+        "name": "P-47D-28 Thunderbolt",
+        "type": "Strike Fighter",
+        "roleUA": "Масивна штурмовка. Несе 2x 1000-фунтові бомби та ракети HVAR. Очищення штурмовиків.",
+        "roleEN": "Heavy Close Air Support. Carries 2x 1000lb bombs and HVAR rockets. Clears bombers."
+      },
+      {
+        "name": "F4U-4B Corsair",
+        "type": "Fighter",
+        "roleUA": "Перехоплення ворожих бомбардувальників та точкові скиди 1000-фунтових бомб.",
+        "roleEN": "Air superiority interceptor with reliable structural turnrate and 1000lb accuracy."
+      }
+    ],
+    "navalUnits": [
+      {
+        "name": "USS Moffett",
+        "type": "Destroyer",
+        "roleUA": "Шалена швидкострільність 127-мм гармат, знищення ворожих катерів за секунди.",
+        "roleEN": "Crazy fast-firing 5-inch guns. Vaporizes enemy speedboats and destroyers."
+      }
+    ]
+  },
+  {
+    "id": "setup_germany_57",
+    "nation": "germany",
+    "br": 5.7,
+    "titleUA": "Важка броня Німеччини (BR 5.7)",
+    "titleEN": "German Heavy Steel Core (BR 5.7)",
+    "difficultyUA": "Середня",
+    "difficultyEN": "Medium",
+    "descriptionUA": "Ударний сетап на базі видатної броні важкого танка Тигр та нищівної балістики Пантер і винищувачів з важким пушковим озброєнням.",
+    "descriptionEN": "Legendary heavy setup focusing on Tiger H1 angled armor plates, precision longshot Panther lasers, and heavy-cannon interceptors.",
+    "groundUnits": [
+      {
+        "name": "Tiger H1",
+        "type": "Heavy Tank",
+        "roleUA": "Продавлювання напрямків при правильному кутуванні корпусу ромбом.",
+        "roleEN": "Leading columns. Must angulate 'diamond-wise' relative to incoming enemy lines."
+      },
+      {
+        "name": "Panther D",
+        "type": "Medium Tank",
+        "roleUA": "Далекобійне снайперство. Товста ВЛД та неймовірна початкова швидкість 75-мм снаряду.",
+        "roleEN": "Long-range lane locking. Sloped front plate is immune to lower-velocity guns."
+      }
+    ],
+    "airUnits": [
+      {
+        "name": "Fw 190 F-8",
+        "type": "Strike Fighter",
+        "roleUA": "Оснащений масивною 1000-кг бомбою для гарантованого знищення скупчень важких танків.",
+        "roleEN": "Armed with a colossal 1000kg tactical bomb ensuring multi-kills at captured zones."
+      },
+      {
+        "name": "Bf 109 G-6",
+        "type": "Fighter",
+        "roleUA": "Завоювання переваги в повітрі від авіа-штурму. Опціональна 30-мм гармата МК 108.",
+        "roleEN": "Securing local air space. Armed with heavy 30mm Motorkanone option."
+      }
+    ],
+    "navalUnits": [
+      {
+        "name": "MZ1",
+        "type": "Gunboat",
+        "roleUA": "Важкий артилерійський катер з купою швидкострільних зенітних гармат.",
+        "roleEN": "Heavily armored artillery cruiser. Destroys aircraft and speedboats."
+      }
+    ]
+  },
+  {
+    "id": "setup_ussr_57",
+    "nation": "ussr",
+    "br": 5.7,
+    "titleUA": "Радянський маневрений прорив (BR 5.7)",
+    "titleEN": "Soviet Maneuver Spearhead (BR 5.7)",
+    "difficultyUA": "Низька",
+    "difficultyEN": "Easy",
+    "descriptionUA": "Швидкісний та вкрай агресивний сетап, орієнтований на ближні обходи та несподівані удари під покровом димів каморними БР-365А.",
+    "descriptionEN": "Highly mobile mid-tier breakthrough deck focusing on close-range flank ambushes and high-yield APHE rounds.",
+    "groundUnits": [
+      {
+        "name": "Т-34-85",
+        "type": "Medium Tank",
+        "roleUA": "Активні обходи, флангування, швидке захоплення точок.",
+        "roleEN": "Deploys on wide flanking runs, captures points, punches flat side-armor with ease."
+      },
+      {
+        "name": "ИС-1",
+        "type": "Heavy Tank",
+        "roleUA": "Танкування бортом задом-наперед, потужний вогонь на середніх дистанціях.",
+        "roleEN": "Urban sidescraping or reverse-driving styles. Solid close-quarters blockader."
+      }
+    ],
+    "airUnits": [
+      {
+        "name": "Ту-2S",
+        "type": "Frontline Bomber",
+        "roleUA": "Швидкісне скидання 4x 500-кг бомб з пікування з подальшим уходом на швидкості.",
+        "roleEN": "Precision dive-bombing with 4x 500kg payloads. Dodges interceptors on speed."
+      },
+      {
+        "name": "Як-3 (ВК-107)",
+        "type": "Fighter",
+        "roleUA": "Абсолютна маневреність та енергетичний бій у повітрі на висотах до 3000м.",
+        "roleEN": "Absolute vertical turnrate dominator. Cleans the high skies of US/German fighters."
+      }
+    ],
+    "navalUnits": [
+      {
+        "name": "Krasny Kavkaz",
+        "type": "Cruiser",
+        "roleUA": "Шалений калібр гармат 180 мм, знищення есмінців одним влучним залпом.",
+        "roleEN": "Massive 180mm main guns. Snipes cruisers and fleet scouts on horizons."
+      }
+    ]
+  },
+  {
+    "id": "setup_usa_103",
+    "nation": "usa",
+    "br": 10.3,
+    "titleUA": "Американський тепловізійний форпост (BR 10.3)",
+    "titleEN": "US Forward Thermals Deck (BR 10.3)",
+    "difficultyUA": "Висока",
+    "difficultyEN": "Hard",
+    "descriptionUA": "Сучасні системи прицілювання, тепловізори на кожному танку та керовані ракети 'повітря-земля' Maverick роблять цей набір володарем дистанції.",
+    "descriptionEN": "Infrared gunner layouts, thermal imaging scopes on all units, and AGMs make this modern deck an absolute long-distance overlord.",
+    "groundUnits": [
+      {
+        "name": "M1 Abrams",
+        "type": "Medium Tank",
+        "roleUA": "Швидкісне просування, чудова живучість за рахунок вишибних панелей БК.",
+        "roleEN": "High mobility rushes. High survivability due to blowout ammunition panels."
+      },
+      {
+        "name": "M3A3 Bradley",
+        "type": "Light Tank",
+        "roleUA": "Стрільба ракетами TOW-2B з-за укриттів, підсвічування важкої техніки.",
+        "roleEN": "Launches top-down TOW-2B missiles from safety or scouts for CAS jets."
+      }
+    ],
+    "airUnits": [
+      {
+        "name": "A-10A Late Thunderbolt II",
+        "type": "Strike Aircraft",
+        "roleUA": "Штурмовка ракетами AGM-65B Maverick з дистанцій до 6 км, автогарматне випалювання.",
+        "roleEN": "CAS sweeps with heavy AGM-65B TV guiding missiles from extreme standoffs."
+      },
+      {
+        "name": "F-4E Phantom II",
+        "type": "Fighter",
+        "roleUA": "Робота по РЛС ракетами AIM-7E-2 та штурмовка некерованими ракетами 'Зуні'.",
+        "roleEN": "Multi-role heavy ordnance carrier. Controls corridors with Sparrows."
+      }
+    ],
+    "navalUnits": [
+      {
+        "name": "USS Wilkinson",
+        "type": "Frigate",
+        "roleUA": "Робота швидкострільними артилерійськими установками по швидкісних катерах.",
+        "roleEN": "Twin rapid-fire 76mm automatic turrets for heavy fire suppression."
+      }
+    ]
+  },
+  {
+    "id": "setup_germany_103",
+    "nation": "germany",
+    "br": 10.3,
+    "titleUA": "Швидкісна артилерія Бундесверу (BR 10.3)",
+    "titleEN": "Bundeswehr Fast APFSDS Deck (BR 10.3)",
+    "difficultyUA": "Середня",
+    "difficultyEN": "Medium",
+    "descriptionUA": "Маневрені легкі танки та ОБТ Леопард з видатним зумом прицілів та найкращими кінетичними снарядами DM33 у класі.",
+    "descriptionEN": "Highly agile and low-profile modern Leopard combat vehicles customized with excellent optic zooms and DM33 kinetic darts.",
+    "groundUnits": [
+      {
+        "name": "Leopard 2A4",
+        "type": "Medium Tank",
+        "roleUA": "Універсальний ОБТ. Швидкий розворот башти та відмінне наведення.",
+        "roleEN": "Outstanding generic MBT. Boasts fast turret traverses and high tactical reverse speeds."
+      },
+      {
+        "name": "Radkampfwagen 90",
+        "type": "Light Tank",
+        "roleUA": "Шалена швидкість до 100 км/год колісної бази для швидкого флангового прориву.",
+        "roleEN": "Wheeled death machine hitting up to 100 km/h for spectacular early flags and flanking runs."
+      }
+    ],
+    "airUnits": [
+      {
+        "name": "Su-22UM3K",
+        "type": "Strike Fighter",
+        "roleUA": "Скидання важких керованих ракет Х-25МП по виділених ворожих зенітках.",
+        "roleEN": "Suppresses anti-air SAM nodes utilizing anti-radiation or laser guided missiles."
+      },
+      {
+        "name": "MiG-21MF",
+        "type": "Fighter",
+        "roleUA": "Швидкісне перехоплення CAS авіації за допомогою керованих ракет Р-60.",
+        "roleEN": "Rapid visual area defense targeting enemy CAS jets with highly reliable R-60 dogfight missiles."
+      }
+    ],
+    "navalUnits": [
+      {
+        "name": "Köln F220",
+        "type": "Frigate",
+        "roleUA": "Ефективна автоматична 100-мм артилерія та надійні протичовнові бомбомети.",
+        "roleEN": "Armed with automatic 100mm layouts to stop shoreline raids."
+      }
+    ]
+  },
+  {
+    "id": "setup_ussr_103",
+    "nation": "ussr",
+    "br": 10.3,
+    "titleUA": "Радянський ракетно-броньований кулак (BR 10.3)",
+    "titleEN": "Soviet Missile Shield & Steel (BR 10.3)",
+    "difficultyUA": "Низька",
+    "difficultyEN": "Easy",
+    "descriptionUA": "Неймовірно міцні башти радянських танків Т-80Б та Т-72Б разом з найзахищенішими вертольотами штурмової підтримки у світі.",
+    "descriptionEN": "Extremely robust Soviet turret cast designs on T-80B gas-turbines, combined with high-performance missile gunships.",
+    "groundUnits": [
+      {
+        "name": "Т-80Б",
+        "type": "Medium Tank",
+        "roleUA": "Газотурбінний двигун, динамічний затиск ліній, стрільба ПТУР 'Кобра' через ствол.",
+        "roleEN": "High power turbine plant, pushes lanes aggressively, fires Kobra ATGMs on the go."
+      },
+      {
+        "name": "Т-72Б (1989)",
+        "type": "Medium Tank",
+        "roleUA": "Посилена броня 'Контакт-5'. Здатний тримати удар більшості ОБПС цього БР лобовою плитою.",
+        "roleEN": "Equipped with Kontakt-5 heavy ERA blocks. Blocks kinetic darts confidently with front plates."
+      }
+    ],
+    "airUnits": [
+      {
+        "name": "Su-25K Frogfoot",
+        "type": "Strike Aircraft",
+        "roleUA": "Броньована штурмова кабіна. Скид С-25ОФ ракетами з гранично низької висоти.",
+        "roleEN": "Armored bathtub CAS layout. Shreds columns with high explosive S-25OF heavy rockets."
+      },
+      {
+        "name": "MiG-21SMT",
+        "type": "Fighter",
+        "roleUA": "Швидкий перехоплювач Р-60М. Прекрасно крутить каруселі ближнього бою.",
+        "roleEN": "Equipped with all-aspect R-60M missiles. Dominates near visual dogfights easily."
+      }
+    ],
+    "navalUnits": [
+      {
+        "name": "Pr.159",
+        "type": "Frigate",
+        "roleUA": "Масивний розстріл катерів та літаків скорострільними 76-мм автоматичними спарками АК-726.",
+        "roleEN": "Automatic double AK-726 barrel configurations. Vaporizes surface and aerial threats in seconds."
+      }
+    ]
+  },
+  {
+    "id": "setup_top_usa_127",
+    "nation": "usa",
+    "br": 12.7,
+    "titleUA": "Американська цифрова перевага (BR 12.7+)",
+    "titleEN": "US Digital Overlord Lineup (BR 12.7+)",
+    "difficultyUA": "Висока",
+    "difficultyEN": "Hard",
+    "descriptionUA": "Топові танки М1А2 SEP v2, керована здалеку високоточна зброя та літаки F-16C / F-15E з активними AMRAAM.",
+    "descriptionEN": "Top tier SEP v2 main battle tanks combined with long-range GPS guided JDAM weaponry and F-16C active radar-homing jets.",
+    "groundUnits": [
+      {
+        "name": "M1A2 SEPv2",
+        "type": "Medium Tank",
+        "roleUA": "Основний танк. Швидке наведення, 5-секундний досилач.",
+        "roleEN": "Advanced MBT. Fast turret spin, fast 5s autoloader reload time."
+      },
+      {
+        "name": "HSTV-L",
+        "type": "Light Tank",
+        "roleUA": "Надшвидка 75-мм голка. Заїзд з тилу та швидкісне виведення з ладу казнів та гусениць ОБТ.",
+        "roleEN": "Hyper-fast autoloader light vehicle. Ideal to blind or disable cannons from side flanks."
+      }
+    ],
+    "airUnits": [
+      {
+        "name": "F-16C Block 50",
+        "type": "Multirole Jet",
+        "roleUA": "Домінування в небі AMRAAM-ами та зачистка ЗРК лазерними кабами GBU-24 подвійної дальності.",
+        "roleEN": "Clear sky sweeps via AMRAAMs. Highaltitude CAS sweeps with dual wave laser GBU-24s."
+      },
+      {
+        "name": "AH-64D Apache Longbow",
+        "type": "Attack Helicopter",
+        "roleUA": "Запуски Hellfire радарної автонаводки з-за пагорбів без візуального контакту з ППО.",
+        "roleEN": "Launch Fire-and-Forget Longbow Hellfires from tree-level cover."
+      }
+    ],
+    "navalUnits": [
+      {
+        "name": "USS Douglas",
+        "type": "Patrol Boat",
+        "roleUA": "Ракетний катер з керованими зенітними ракетами Tartar для захисту берегової лінії.",
+        "roleEN": "Armed with advanced Tartar surface-to-air beam-riding modern defense missiles."
+      }
+    ]
+  }
+]

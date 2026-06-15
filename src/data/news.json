@@ -1,0 +1,38 @@
+[
+  {
+    "id": "news_seek_and_destroy",
+    "titleUA": "Оновлення 'Seek & Destroy' — Нове авіаційне озброєння та ракети AMRAAM",
+    "titleEN": "Update 'Seek & Destroy' — Premium Fighter Upgrades and Fox-3 AMRAAM Missiles",
+    "date": "2026-05-18",
+    "categoryUA": "Оновлення",
+    "categoryEN": "Update",
+    "summaryUA": "Довгоочікуване введення активних радіолокаційних ракет повітря-повітря середньої дальності (ARH) для топової авіації.",
+    "summaryEN": "The long-awaited introduction of active radar-homing (ARH) medium-range missiles for top-tier combat aircraft.",
+    "contentUA": "Це масштабне оновлення кардинально змінює тактику сучасних повітряних боїв у Реалістичному та Симуляторному режимах. Головними зірками стають ракети сімейства Fox-3: американські AIM-120 AMRAAM, радянські Р-77, китайські PL-12 та німецькі/французькі MICA EM. Тепер літаки можуть запускати ракети та відразу маневрувати для виходу з зони ураження, оскільки ракета сама переходить на автономне РЛ супроводження цілі на останніх кілометрах.\n\nТакож додано детальні 3D-моделі внутрішніх пошкоджень для багатьох ОБТ та реалізовано покращену фізику відкидання піддонів підкаліберних снарядів.",
+    "contentEN": "This major update radically shifts modern air combat tactics in Realistic and Simulator modes. The stars are Fox-3 active radar missiles: American AIM-120 AMRAAM, Soviet R-77, Chinese PL-12, and French MICA EM. Aircraft can now discharge missiles and immediately turn away as the armament activates its onboard radar receiver for autonomous homing in the terminal phase.\n\nFurthermore, this expansion introduces high-fidelity 3D structural damage models inside tanks and refined discarding sabot physics."
+  },
+  {
+    "id": "news_tactical_scouting_guide",
+    "titleUA": "Тактика легких танків: Мистецтво активної розвідки на міських картах",
+    "titleEN": "Light Tank Tactics: The Masterclass of Active Scouting in City Corridors",
+    "date": "2026-06-01",
+    "categoryUA": "Тактичний гайд",
+    "categoryEN": "Tactics Guide",
+    "summaryUA": "Розбираємо, як координувати союзну авіацію за допомогою механіки активного маркування на картах Бреслау та Рейн.",
+    "summaryEN": "Breaking down how to coordinates team fire and target markings on Breslau and Rhine urban corridors.",
+    "contentUA": "Багато гравців на легких танках помилково штурмують точки лоб у лоб з важкою технікою. Ваша головна зброя — це бінокль та радіостанція. Механіка активної розвідка 'Scouting' зменшує вартість вильоту літаків вашої команди при успішних влучаннях союзників по вашим цілям. На перехрестях у Бреслау використовуйте димові гранати для створення уявного тунелю та займайте позиції флангів. Завжди тримайте борт схованим, підсвічуючи ворогів через маленькі отвори в цегляних стінах зруйнованого міста.",
+    "contentEN": "Many players commit the tactical sin of rushing urban cap zones head-on with light reconnaissance vehicles. Your primary weapons are binoculars and communications. The 'Active Scouting' mechanic decreases spawn costs for friendly Strike aircraft when marked tanks are hit. On Breslau junctions, trigger smoke launchers to deceive enemies and slip into narrow side ruins. Peek through bullet crevices to safely mark hostiles without exposing any hulls."
+  },
+  {
+    "id": "news_naval_torpedo_meta",
+    "titleUA": "Аналітика морських боїв: Найкращі напрямки торпедних пусків у портах",
+    "titleEN": "Naval Balance Analytics: Best Torpedo Corridors in Harbour Enclaves",
+    "date": "2026-06-05",
+    "categoryUA": "Морський флот",
+    "categoryEN": "Naval",
+    "summaryUA": "Секрети успішного пуску торпед з есмінців та оптимальні схеми ухилення важких крейсерів від підводних загроз.",
+    "summaryEN": "Secrets of effective long-range torpedo salvos and heavy cruiser evasive guides in tight choke points.",
+    "contentUA": "Для успішного запуску торпед на карті Новоросійськ або Порт Кампанія ви повинні знати зони циркуляції важких лінкорів. Запуск віялом на початку бою у вузькі проходи між крайніми точками є найефективнішою тактикою. Поради щодо модифікацій: за відсутності прямого бачення цілі завжди вимикайте режим швидкої торпеди (це збільшує дальність ходу за рахунок швидкості), що дасть можливість торпедам досягати самого ворожого респавну у віддалених зонах флоту.",
+    "contentEN": "For successful torpedo strikes on Port Novorossiysk or Campania Coast maps, you must learn the heavy battleship cruise lanes. Broad fanning of deep-water torpedoes into narrows at the start of a match is superior. Pro-tip: toggle off 'Shorter Range Torpedo' mod to trade minor speed for double transit distance, allowing torpedoes to reach far enemy fleet spawns directly."
+  }
+]
